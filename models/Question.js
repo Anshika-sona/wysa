@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../sequelize');  // Reference to your sequelize connection
+const sequelize = require('../sequelize');  
 
 // Define the Question model
 const Question = sequelize.define('Question', {
