@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../sequelize');  // Reference to your sequelize connection
+const sequelize = require('../sequelize');  
 
 // Define the User model
 const User = sequelize.define('User', {
